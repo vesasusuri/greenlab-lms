@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#logo{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 2% 0 0 3%;
+    font-weight: 600;
+}
+
+#logoText{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    margin: 0 0 0 5%;
+
+}
+
+#containerButtons{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.timerButtons{
+    width: 130px;
+    height: 42px;
+    border-radius: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    transition:  0.2s ease-in-out;
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    
+}
+
+#timer{
+    font-size: 128px;
+    color: white;
+    font-family: "Space Grotesk",sans-serif;
+    font-weight: 600;
+}
+
+
+#startButton{
+    width: 130px !important;
+    height: 64px !important;
+    border-radius: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    transition:  0.2s ease-in-out;
+    background-color: white;
+    color: black;
+    border: none;
+  
+}
+
+#startButton:hover{
+    background-color: transparent;
+    color: white;
+    border: black solid 1px;
+    
+}
+
+#restartButton{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 8px;
+    color: white;
+    transition:  0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#restartButton:hover{
+    transform: scale(1.2);
+}
+
+
+#settingsButton{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 7px;
+    color: white;
+    transition:  0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#settingsButton:hover{
+    transform: scale(1.2);
+}
+
+
+#spotifyEmbed{
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+
+/* This is the pop up Css code*/
+
+#closeButton{
+
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 8px;
+    color: #adb5bd;
+    transition:  0.2s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 2%;
+    left: 90%;
+    margin-bottom: 2%;
+}
+
+#closeButton:hover{
+    transform: scale(1.2);
+}
+
+
+#popupSettings{
+    display: none;
+    position: absolute;
+    left: 35.75%;
+    width: 28.5%;
+    top: 27%;
+    height: 450px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+
+#paragraphSettingsDisplay{
+    margin-top: 5%;
+    display: flex;
+}
+
+#inputSettingsDisplay{
+    display: flex;
+}
+
+.inputText_settings{    
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    width: 55px;
+    font-size: 16px; 
+    margin-left: 8%; 
+    margin-bottom: 10px;
+    color: white;  
+    line-height: 20px;
+
+}
+
+#shortBreakParagraph{
+    width: 120px;
+    margin-left: 20%;
+    
+}
+
+#longBreakParagraph{
+    width: 120px;
+}
+
+
+.input_settings{    
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    width: 120px;
+    padding-left: 10px;
+    font-size: 16px; 
+    margin-left: 8%; 
+    height: 30px;
+    color: white;  
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 3px;
+}
+
+#minutesSettingsDisplay{
+    display: flex;
+    margin-left: 8%;
+    
+}
+
+.minutesText_settings{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    width: 55px;
+    font-size: 14px; 
+    color:#adb5bd;  
+    margin-right: 23%;
+    margin-top: 5px;
+
+}
+
+#themeSelectionParagraph{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 16px; 
+    margin-left: 8%; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: white;  
+}
+
+#themes{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    width: 84%;
+    font-size: 16px; 
+    margin-left: 8%; 
+    height: 33px;
+    color: white;  
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 3px;
+}
+
+#saveSettings{
+    width: 25%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 20%;
+    left: 67%;
+}

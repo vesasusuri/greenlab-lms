@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+        
+}
+
+body{
+    background-image: url(../foto/shkolla.jpg);
+}
+
+#dashboard{
+    transition: transform .2s;
+}
+
+#dashboard:hover{
+    transform: scale(1.05);
+}
+
+
+#class{
+    transition: transform .2s;
+}
+
+#class:hover{
+    transform: scale(1.05);
+}
+
+
+#tasks{
+    transition: transform .2s;
+}
+
+#tasks:hover{
+    transform: scale(1.05);
+}
+
+
+#study{
+    transition: transform .2s;
+}
+
+
+#study:hover{
+    transform: scale(1.05);
+}

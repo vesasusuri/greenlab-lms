@@ -1,0 +1,24 @@
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#createClass{
+    display: none;
+    background-color: white;
+    z-index: 9;
+}
+
+#createClass input{
+    width: 80%;
+    height: 20px;
+    position: relative;
+    left: 10%;
+    
+}
+
+#createClass p{
+    margin-top: 5%;
+    text-align: center;
+}
+
